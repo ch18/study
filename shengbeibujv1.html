@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			body,div{
+				margin: 0px;
+				padding: 0px;
+			}
+			.left,.middle,.right{
+				border: 1px solid red;
+			}
+			.container{
+				border: 1px solid #000;
+				position: relative;
+			}
+			.left,.right{
+				width: 200px;
+				height: 500px;
+				position: absolute;
+			}
+			.left{
+				top: 0px;
+				left: 0px;
+			}
+			.right{
+				top: 0px;
+				right: 0px;
+			}
+			.middle{
+				margin: 0px 210px;
+				height: 500px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="left">left</div>
+			<div class="middle">middle</div>
+			<div class="right">right</div>
+		</div>
+	</body>
+</html>
